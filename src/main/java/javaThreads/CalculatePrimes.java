@@ -1,6 +1,8 @@
 package javaThreads;
 
 
+
+
 /**
  * CalculatePrimes -- calculate as many primes as we can in ten seconds.
  * The following example uses two threads, one for timing and one to do actual work.
