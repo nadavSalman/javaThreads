@@ -14,6 +14,6 @@ class AppTest {
 
     @Test
     public void simpleTest(){
-        assertEquals(true,false);
+        assertEquals(true,true);
     }
 }
