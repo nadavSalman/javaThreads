@@ -1,4 +1,4 @@
 # javaThreads
 
 
-Example of using java Threads and practical use in applications.
+Examples of using java Threads and practical use in applications.
