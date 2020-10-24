@@ -12,7 +12,7 @@ public class CalculatePrimes extends Thread {
     public static final int MAX_PRIMES = 1000000;
     public static final int TEN_SECONDS = 10000;
 
-    public volatile boolean finished = false;//that the shared flag is declared volatile.
+    public volatile boolean finished = false;//that the shared flag is declared volatile. The assumption is that every object instantiate from this class will have access to this variable
 
     public void run() {
         int[] primes = new int[MAX_PRIMES];
